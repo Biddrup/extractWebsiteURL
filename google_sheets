@@ -5,4 +5,4 @@ Exclude Extra After ?
 
 Remove =+
 
-=RIGHT(I4, LEN(I4)-2)
+=RIGHT(I2, LEN(I2)-2)
