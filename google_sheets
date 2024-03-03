@@ -1,8 +1,6 @@
 Exclude Extra After ?
 =IF(ISNUMBER(FIND("?", h2)), LEFT(h2, FIND("?", h2) - 1), h2)
 
-=LEFT(A1, FIND("?", A1) - 1)
-
 Remove =+
 
 =RIGHT(h2, LEN(h2)-2)
