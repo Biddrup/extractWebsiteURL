@@ -1,6 +1,6 @@
 Exclude Extra After ?
-=IF(ISNUMBER(FIND("?", h2)), LEFT(h2, FIND("?", h2) - 1), h2)
+=IF(ISNUMBER(FIND("?", i2)), LEFT(i2, FIND("?", i2) - 1), i2)
 
 Remove =+
 
-=RIGHT(h2, LEN(h2)-2)
+=RIGHT(i2, LEN(i2)-2)
