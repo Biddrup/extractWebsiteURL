@@ -4,3 +4,6 @@ Exclude Extra After ?
 Remove =+
 
 =RIGHT(i2, LEN(i2)-2)
+
+Remove ?subject
+=IF(ISNUMBER(FIND("?", A1)), LEFT(A1, FIND("?", A1) - 1), A1)
